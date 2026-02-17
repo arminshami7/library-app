@@ -7,8 +7,8 @@ import BookDetail from './pages/Bookdetail';
 
 function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-100 via-blue-50 to-slate-100">
-      <BrowserRouter>
+    <div className="min-h-screen bg-linear-to-br from-slate-100 via-blue-50 to-slate-100">
+      <BrowserRouter basename='library-app'>
         <Navbar />
         <main className="flex flex-col items-center justify-center w-full">
           <Routes>
